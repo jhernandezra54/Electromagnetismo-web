@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  background-image: url('fondo-pizarra.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+.accordion-container {
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #555;
+  margin-bottom: 1rem;
+}
+
+.accordion-btn {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff480;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.accordion-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #e0e0e0;
+}
+
+.accordion-content button {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #aaaaaa;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+}
